@@ -16,7 +16,7 @@ public class BaseService {
 		RestAssured.filters(new LoggingFilter());
 	}
 	
-	BaseService(){
+	protected BaseService(){
 		requestSpec=given().baseUri(BASE_URL);
 	}
 	
