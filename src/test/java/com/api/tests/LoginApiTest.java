@@ -23,6 +23,7 @@ public class LoginApiTest {
 		 System.out.println(loginResponse.getToken());
 		 System.out.println(loginResponse.getEmail());
 		 System.out.println(loginResponse.getId());
+		 System.out.println(loginResponse.getUsername());
 
 
 	}
